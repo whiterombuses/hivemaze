@@ -23948,13 +23948,14 @@ a8U:function a8U(a,b){this.a=a
 this.b=b},
 aId(a){var s=(a.a<0?B.x:a).a,r=B.e.cF(s,36e8),q=B.e.aN(B.e.cF(s,6e7),60),p=B.e.aN(B.e.cF(s,1e6),60),o=B.c.jk(B.e.j(q),2,"0"),n=B.c.jk(B.e.j(p),2,"0")
 return r>0?""+r+":"+o+":"+n:""+q+":"+n},
-O0:function O0(a,b,c,d,e,f,g,h,i,j,k,l,m,n){var _=this
-_.p2=a
-_.p3=b
-_.p4=c
-_.R8=d
-_.RG=e
-_.rx=f
+O0:function O0(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){var _=this
+_.p1=a
+_.p2=b
+_.p3=c
+_.p4=d
+_.R8=e
+_.RG=f
+_.rx=g
 _.xr=_.x2=_.x1=_.to=_.ry=$
 _.y2=_.y1=!1
 _.F=_.aG=_.aE=0
@@ -23964,18 +23965,18 @@ _.ab=null
 _.ao=!1
 _.aU=_.aH=_.aq=0
 _.bH=_.bC=_.bv=_.bB=_.aV=_.aI=null
-_.ax=g
-_.ay=h
-_.ch=i
+_.ax=h
+_.ay=i
+_.ch=j
 _.cx=$
 _.a=0
 _.f=_.e=_.d=_.c=_.b=null
-_.r=j
-_.w=k
+_.r=k
+_.w=l
 _.x=!1
-_.z=l
-_.as=m
-_.at=n},
+_.z=m
+_.as=n
+_.at=o},
 u7:function u7(a,b){this.a=a
 this.b=b},
 KS:function KS(a,b,c,d,e,f,g,h,i,j,k,l,m,n){var _=this
@@ -79603,7 +79604,7 @@ $1(a){return A.ar(["x",a.a,"y",a.b],t.N,t.S)},
 $S:522}
 A.MZ.prototype={
 M(a){var s=null,r=new A.dS(A.lo(14),B.ev),q=A.aUE(B.be,B.ho,B.dB,B.y,B.jl,r,s,B.jq),p=A.aUn(B.be,0,B.y,B.jl,r,s,B.jq),o=A.aWI(B.j,B.cT,B.jl,r,s,B.n1),n=A.aYP(s,B.cT,B.jl,s,s,B.n1)
-return new A.Bo(new A.YP(this.c,this.d,s),new A.a8N(),"Geometria Dinamica \u2014 Demo",A.aEg(B.HV,s,B.KN,new A.ue(B.cS,s,s,B.U,new A.dS(A.lo(26),B.IU),s,B.GZ,B.ek,s,s,s,s,s,s),B.P1,new A.uk(p),new A.ut(q),"Nunito",B.Qw,new A.vk(o),B.a5o,B.hk,A.aKm(s,s,B.bZ,B.y,B.mJ,s,B.n0.cw(B.dC),s,s,s,s,s,new A.dS(A.lo(14),B.F),s),new A.wj(n),B.acJ,!0),B.Zy,B.Z5,!1,s)}}
+return new A.Bo(new A.YP(this.c,this.d,s),new A.a8N(),"HiveMaze: Idle Bee Tycoon",A.aEg(B.HV,s,B.KN,new A.ue(B.cS,s,s,B.U,new A.dS(A.lo(26),B.IU),s,B.GZ,B.ek,s,s,s,s,s,s),B.P1,new A.uk(p),new A.ut(q),"Nunito",B.Qw,new A.vk(o),B.a5o,B.hk,A.aKm(s,s,B.bZ,B.y,B.mJ,s,B.n0.cw(B.dC),s,s,s,s,s,new A.dS(A.lo(14),B.F),s),new A.wj(n),B.acJ,!0),B.Zy,B.Z5,!1,s)}}
 A.a8N.prototype={
 $2(a,b){var s=A.cN(a,B.a3,t.J)
 s.toString
@@ -79911,7 +79912,7 @@ for(;;)switch(s){case 0:k=A.cI(q.hM(),t.H)
 s=2
 return A.v(k,$async$ak)
 case 2:k=new A.N(new Float32Array(2))
-k.a9(12,48)
+k.a9(12,q.p1)
 p=q.ax.e
 p.aO(k)
 p.R()
@@ -81498,7 +81499,7 @@ l=new A.cO(m,new Float32Array(2))
 l.aO(n)
 l.R()
 n=A.ap(A.cC(null),null,!1,i)
-o=new A.O0(new A.ac2(q),q.ga5I(),new A.ac3(q),new A.ac4(q),new A.ac9(q),new A.aca(q),o,l,B.ae,10,new A.bC(n,0,0,g),null,new A.aT([]),new A.aT([]))
+o=new A.O0(12,new A.ac2(q),q.ga5I(),new A.ac3(q),new A.ac4(q),new A.ac9(q),new A.aca(q),o,l,B.ae,10,new A.bC(n,0,0,g),null,new A.aT([]),new A.aT([]))
 o.d7(null,null,null,null,0,null,10,null,null)
 q.ip=o
 o=q.cc(o)
