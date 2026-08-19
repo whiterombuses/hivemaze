@@ -1,0 +1,37 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ADE80" />
+      <stop offset="100%" stop-color="#22C55E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="16" fill="url(#bg)" fill-opacity="0.15" />
+
+  <!-- Animated Chevrons -->
+  <g stroke="#22C55E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    
+    <!-- Top Chevron -->
+    <g>
+      <path d="M 18 28 L 32 14 L 46 28" />
+      <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite" begin="0.4s" />
+      <animateTransform attributeName="transform" type="translate" values="0 8; 0 0; 0 -8" dur="1.5s" repeatCount="indefinite" begin="0.4s" />
+    </g>
+
+    <!-- Middle Chevron -->
+    <g>
+      <path d="M 18 40 L 32 26 L 46 40" />
+      <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite" begin="0.2s" />
+      <animateTransform attributeName="transform" type="translate" values="0 8; 0 0; 0 -8" dur="1.5s" repeatCount="indefinite" begin="0.2s" />
+    </g>
+
+    <!-- Bottom Chevron -->
+    <g>
+      <path d="M 18 52 L 32 38 L 46 52" />
+      <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite" begin="0s" />
+      <animateTransform attributeName="transform" type="translate" values="0 8; 0 0; 0 -8" dur="1.5s" repeatCount="indefinite" begin="0s" />
+    </g>
+    
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Solo il gruppo #antennae della posa "cashier". Vedi bee_cashier_wing_a.svg. -->
+  <g transform="rotate(7 130 96)">
+    <g id="antennae">
+      <path d="M146 44 q-14 -20 -18 -32" fill="none" stroke="#5B3312" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="127" cy="9" r="7" fill="#8A5A26" stroke="#4A2C11" stroke-width="3.4"/>
+      <path d="M177 44 q14 -18 24 -24" fill="none" stroke="#5B3312" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="203" cy="17" r="7" fill="#8A5A26" stroke="#4A2C11" stroke-width="3.4"/>
+    </g>
+  </g>
+</svg>

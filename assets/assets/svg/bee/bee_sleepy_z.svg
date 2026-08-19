@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Singola "Z" della scia dell'ape addormentata (bee_sleepy.svg). Disegnata in
+       orientamento leggibile normale: NodeComponent istanzia 3 copie di questa
+       texture come figli di `_bottleneckBee`, ciascuna con il proprio
+       scale(-1,1) locale che annulla lo scale(-1,1) del genitore (stesso
+       principio del doppio specchio che si cancella già documentato lì),
+       così la lettera resta leggibile anche se la posizione del figlio viene
+       comunque specchiata dal genitore. -->
+  <path d="M12 14 H88 L18 86 H88" fill="none" stroke="#000" stroke-width="16"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

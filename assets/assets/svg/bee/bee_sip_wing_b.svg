@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Solo il gruppo #wing-b della posa "sip". Vedi bee_sip_wing_a.svg. -->
+  <defs>
+    <linearGradient id="wg" x1="0" y1="0" x2=".6" y2="1">
+      <stop offset="0" stop-color="#EDFAFF" stop-opacity=".96"/><stop offset="1" stop-color="#A6DBF4" stop-opacity=".8"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(16 118 96)">
+    <g id="wing-b">
+      <ellipse cx="84" cy="48" rx="40" ry="15" transform="rotate(-8 84 48)" fill="url(#wg)" stroke="#6FB6E4" stroke-width="3.2"/>
+    </g>
+  </g>
+</svg>

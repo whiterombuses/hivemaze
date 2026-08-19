@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Solo il gruppo #wing-a della posa "sip", stesso viewBox del corpo
+       (bee_sip_body.svg) per allineamento pixel-perfetto quando sovrapposte.
+       Vedi bee_art.dart. -->
+  <defs>
+    <linearGradient id="wg" x1="0" y1="0" x2=".6" y2="1">
+      <stop offset="0" stop-color="#EDFAFF" stop-opacity=".96"/><stop offset="1" stop-color="#A6DBF4" stop-opacity=".8"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(16 118 96)">
+    <g id="wing-a">
+      <ellipse cx="92" cy="26" rx="46" ry="18" transform="rotate(-20 92 26)" fill="url(#wg)" stroke="#6FB6E4" stroke-width="3.4"/>
+      <path d="M62 20 q30 3 52 19" fill="none" stroke="#8FC9E8" stroke-width="2" opacity=".6"/>
+    </g>
+  </g>
+</svg>
