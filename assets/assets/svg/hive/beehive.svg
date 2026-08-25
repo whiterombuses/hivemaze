@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Arnia: landmark art per la cella Nodo Vendita (CellType.salesNode, "Arnia",
+       BeeCellMarker.landmarkArt — oggi disegnato come no-op in cell_decoration.dart,
+       stesso punto già colmato per il Nodo Produzione da flower_field.svg).
+       Geometria e proporzioni ricalcano fedelmente HiveStackPainter
+       (game/rendering/hive_stack_painter.dart) — 4 bande arrotondate che si
+       restringono salendo (widthFactor 1.0/0.83/0.66/0.46, stessi rapporti,
+       riscalati per riempire senza traboccare il viewBox 100x100) più il foro
+       d'ingresso scuro alla base — così l'Arnia della griglia e l'alveare del
+       pulsante-nodo Home Trasporto condividono la stessa sagoma "a cesto
+       impilato", non due disegni indipendenti della stessa cosa. Sfondo
+       trasparente: la cella dipinge già il riempimento oro (BeeColors.cellSalesNode)
+       sotto questo overlay. -->
+  <g stroke="#4A2C11" stroke-width="3" stroke-linejoin="round">
+    <rect x="10" y="72" width="80" height="22" rx="8.8" ry="8.8" fill="#E89112"/>
+    <rect x="16.8" y="51" width="66.4" height="21" rx="8.4" ry="8.4" fill="#FFAE12"/>
+    <rect x="23.6" y="31" width="52.8" height="20" rx="8" ry="8" fill="#FFC62E"/>
+    <rect x="31.6" y="12" width="36.8" height="19" rx="7.6" ry="7.6" fill="#FFD34A"/>
+  </g>
+  <circle cx="50" cy="85.8" r="7.2" fill="#4A2C11"/>
+</svg>
