@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Corpo della posa "nectar_carry" (Fase 3a addendum, roadmap-arnia-interna.md): NectarBee
+       in volo verso la cella con una goccia di nettare. Sorgente: Claude Design a partire da
+       un riferimento fotografico scelto dall'utente (docs/skins/bee/imgs/concept/arnia_page/
+       design/NectarBee_ResidentBee_SVG/nectar-carry.svg), con due correzioni fatte a mano
+       dopo la consegna (non ottenute da Claude Design nonostante due richieste esplicite):
+       la testa era staccata dal torace (due ellissi non abbastanza sovrapposte, contorni
+       paralleli con una fessura bianca in mezzo) — riavvicinata; il pungiglione era un
+       triangolo a spigoli vivi, poi troppo allungato — ridisegnato tozzo e curvo. Vedi
+       bee_nectar_carry_wing_a.svg per lo split in layer. -->
+  <defs>
+    <linearGradient id="abdG" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#F8C468"></stop>
+      <stop offset="0.45" stop-color="#F0A93C"></stop>
+      <stop offset="1" stop-color="#DE8A22"></stop>
+    </linearGradient>
+    <linearGradient id="headG" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#F7C066"></stop>
+      <stop offset="1" stop-color="#E89628"></stop>
+    </linearGradient>
+    <linearGradient id="creamG" x1="0.1" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#FCF6E7"></stop>
+      <stop offset="1" stop-color="#E8D5AF"></stop>
+    </linearGradient>
+    <linearGradient id="dropG" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#F9CE72"></stop>
+      <stop offset="0.5" stop-color="#F2AC3B"></stop>
+      <stop offset="1" stop-color="#E08C1C"></stop>
+    </linearGradient>
+    <clipPath id="abdClip">
+      <ellipse cx="148" cy="103" rx="46" ry="42" transform="rotate(20 148 103)"></ellipse>
+    </clipPath>
+  </defs>
+
+  <g stroke="#4A2617" stroke-width="11" stroke-linecap="round" fill="none">
+    <path d="M84 118 L69 137"></path>
+    <path d="M69 137 L78 156"></path>
+    <path d="M104 126 L100 146"></path>
+    <path d="M100 146 L110 162"></path>
+    <path d="M147 147 L169 160"></path>
+    <path d="M169 160 L189 169"></path>
+  </g>
+  <g stroke="#6B3D24" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M84 118 L69 137"></path>
+    <path d="M69 137 L78 156"></path>
+    <path d="M104 126 L100 146"></path>
+    <path d="M100 146 L110 162"></path>
+    <path d="M147 147 L169 160"></path>
+    <path d="M169 160 L189 169"></path>
+  </g>
+
+  <ellipse cx="70" cy="85" rx="34" ry="33" fill="url(#headG)" stroke="#4A2617" stroke-width="5"></ellipse>
+  <ellipse cx="99" cy="92" rx="25" ry="37" transform="rotate(15 99 92)" fill="url(#creamG)" stroke="#4A2617" stroke-width="5"></ellipse>
+  <path d="M87 63 C75 79 76 107 89 126 C96 114 96 79 87 63 Z" fill="#FDF9F0" fill-opacity="0.8"></path>
+
+  <path d="M180 109 C189 111 197 116 199 122 C196 126 188 126 179 121 C178 117 178 113 180 109 Z" fill="#1A140F" stroke="#4A2617" stroke-width="4.5" stroke-linejoin="round"></path>
+
+  <ellipse cx="148" cy="103" rx="46" ry="42" transform="rotate(20 148 103)" fill="url(#abdG)"></ellipse>
+  <g clip-path="url(#abdClip)">
+    <g transform="rotate(20 148 103)" fill="#1A140F">
+      <path d="M114 58 C126 85 126 121 114 148 L128 148 C140 121 140 85 128 58 Z"></path>
+      <path d="M140 58 C152 85 152 121 140 148 L154 148 C166 121 166 85 154 58 Z"></path>
+      <path d="M166 58 C178 85 178 121 166 148 L179 148 C191 121 191 85 179 58 Z"></path>
+    </g>
+    <g transform="rotate(20 148 103)" fill="#FFFFFF" fill-opacity="0.26">
+      <path d="M106 68 C124 61 168 61 188 71 C168 78 124 78 106 68 Z"></path>
+    </g>
+  </g>
+  <ellipse cx="148" cy="103" rx="46" ry="42" transform="rotate(20 148 103)" fill="none" stroke="#4A2617" stroke-width="5"></ellipse>
+  <circle cx="166" cy="78" r="5" fill="#FFFFFF" fill-opacity="0.55"></circle>
+
+  <path d="M102 134 C120 146 132 156 131 169 C129 182 117 189 105 186 C92 183 85 171 88 159 C91 149 96 141 102 134 Z" fill="url(#dropG)" stroke="#4A2617" stroke-width="5" stroke-linejoin="round"></path>
+  <ellipse cx="106" cy="158" rx="9" ry="5.5" transform="rotate(-32 106 158)" fill="#FFFFFF" fill-opacity="0.6"></ellipse>
+  <circle cx="142" cy="182" r="3.6" fill="url(#dropG)" stroke="#4A2617" stroke-width="3"></circle>
+  <circle cx="151" cy="187" r="2.4" fill="url(#dropG)" stroke="#4A2617" stroke-width="2.5"></circle>
+</svg>

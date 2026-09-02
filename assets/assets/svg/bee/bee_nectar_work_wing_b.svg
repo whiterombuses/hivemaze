@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Ala posteriore ("wing-hind" nell'SVG sorgente, la più piccola delle due) della posa
+       "nectar_work". Vedi bee_nectar_work_body.svg per la provenienza. -->
+  <defs>
+    <clipPath id="whClip2">
+      <ellipse cx="145" cy="60" rx="33" ry="12" transform="rotate(-16 145 60)"></ellipse>
+    </clipPath>
+  </defs>
+  <g id="wing-b">
+    <ellipse cx="145" cy="60" rx="33" ry="12" transform="rotate(-16 145 60)" fill="#D2EBF6" fill-opacity="0.9" stroke="#4A2617" stroke-width="5"></ellipse>
+    <g clip-path="url(#whClip2)" fill="none" stroke="#A6D3E6" stroke-width="1.8" stroke-linecap="round">
+      <path d="M114 64 C134 54 158 48 178 48"></path>
+      <path d="M150 46 L154 64"></path>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 10 36 36" width="36" height="36">
+<!-- Fase 3a (roadmap-arnia-interna.md), seconda iterazione: overlay per
+     HoneycombCellFillState.full, prodotto da Claude Design (prompt in
+     docs/plans/arnia-interna/prompt-claude-design-celle-favo.md, sorgente
+     docs/skins/bee/imgs/concept/arnia_page/design/HiveNectar/nectar-full.svg), copiato qui
+     invariato (a parte l'addendum sotto). Sostituisce il primo tentativo (vedi
+     honeycomb_cell_mezzo_pieno.svg).
+     Addendum (cornice in legno, tassellamento a contatto, 2026-08-30): l'alone esagonale
+     pallido esterno del sorgente e' stato rimosso — vedi la nota in
+     honeycomb_cell_vuota.svg, stesso motivo, stessa decisione, ripetuta identica sui 3
+     stati per non farli divergere di dimensione o forma.
+     Addendum (esagoni irregolari, 2026-08-30): viewBox ristretta al minimo che contiene
+     il contenuto — vedi la nota in honeycomb_cell_vuota.svg, stesso motivo, stessa
+     decisione, ripetuta identica sui 3 stati. -->
+<polygon points="13,28 20.5,15.01 35.5,15.01 43,28 35.5,40.99 20.5,40.99" fill="#FFB300" stroke="#4A2C11" stroke-width="3.5" stroke-linejoin="round"></polygon>
+<path d="M15.31 32 L20.5 40.99 L35.5 40.99 L40.69 32 Z" fill="#F08C00" opacity="0.45"></path>
+<ellipse cx="25.6" cy="19.4" rx="6.2" ry="2.9" fill="#FFF6DC" opacity="0.92"></ellipse>
+<ellipse cx="21.5" cy="24" rx="2.6" ry="1.7" fill="#FFD34A" opacity="0.9"></ellipse>
+<path d="M36 18.5 L36.9 20.6 L39 21.5 L36.9 22.4 L36 24.5 L35.1 22.4 L33 21.5 L35.1 20.6 Z" fill="#FFF6DC"></path>
+<circle cx="40.6" cy="35.2" r="2.1" fill="#FFB300" stroke="#4A2C11" stroke-width="2"></circle>
+</svg>

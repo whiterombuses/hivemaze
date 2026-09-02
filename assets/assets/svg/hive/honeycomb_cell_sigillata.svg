@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 10 36 36" width="36" height="36">
+<!-- Fase 3b (roadmap-arnia-interna.md): overlay per HoneycombCellFillState.sealed.
+     Placeholder disegnato a mano (non ancora passato da Claude Design), stesso esagono di
+     bordo (punti "43,28 35.5,15.01 20.5,15.01 13,28 20.5,40.99 35.5,40.99", stesso stroke
+     3.5 "#4A2C11") e stessa viewBox ristretta 10 10 36 36 delle altre tre varianti (vedi
+     l'addendum "esagoni irregolari" nel rapporto di Fase 3a) - nessuno stato cambia
+     dimensione. Riempimento in un tono cera/paglierino (distinto dall'ambrato lucido di
+     "pieno") con linee di cappatura orizzontali, a suggerire il tappo di cera che chiude la
+     cella dopo il lavoro dell'ape sigillatrice - prompt per la versione definitiva in
+     docs/plans/arnia-interna/prompt-claude-design-cella-sigillata.md. -->
+<polygon points="43,28 35.5,15.01 20.5,15.01 13,28 20.5,40.99 35.5,40.99" fill="#E8C87A" stroke="#4A2C11" stroke-width="3.5" stroke-linejoin="round"></polygon>
+<path d="M16.6 21.5 L39.4 21.5" fill="none" stroke="#C9A84E" stroke-width="1.6" stroke-linecap="round" opacity="0.8"></path>
+<path d="M15.1 28 L40.9 28" fill="none" stroke="#C9A84E" stroke-width="1.6" stroke-linecap="round" opacity="0.8"></path>
+<path d="M16.6 34.5 L39.4 34.5" fill="none" stroke="#C9A84E" stroke-width="1.6" stroke-linecap="round" opacity="0.8"></path>
+<ellipse cx="24" cy="20.5" rx="4.4" ry="1.9" fill="#F5DFA3" opacity="0.85"></ellipse>
+</svg>

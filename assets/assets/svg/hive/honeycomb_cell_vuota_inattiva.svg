@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 10 36 36" width="36" height="36">
+<!-- Richiesta utente, 2026-09-02 (roadmap-arnia-interna.md, post-chiusura): con poche api
+     (beeCount) rispetto al numero di celle della griglia, solo un piccolo sottoinsieme di
+     celle "vuote" e' davvero attivo (riceve NectarBee/ResidentBee nel tempo) — le altre
+     restano vuote per sempre, ma finora usavano lo stesso identico asset
+     (honeycomb_cell_vuota.svg) delle celle attive: a schermo, un giocatore vede l'ape andare
+     sempre e solo su poche celle fra le tante identiche, senza modo di capire perche'. Questo
+     e' il secondo stato "vuoto" — variante "disattivata" (HoneycombCell.isActive == false) —
+     usato per le celle che non fanno parte di alcun ciclo di lavoro finche' beeCount non
+     cresce abbastanza da attivarle.
+     Stesso identico esagono di bordo (punti "43,28 35.5,15.01 20.5,15.01 13,28 20.5,40.99
+     35.5,40.99") e stessa viewBox ristretta 10 10 36 36 delle altre varianti — nessuno stato
+     cambia dimensione o forma, solo il trattamento cromatico cambia. Rispetto al guscio
+     scuro pieno (#4A2C11) di honeycomb_cell_vuota.svg: fill desaturato grigio-tortora,
+     bordo tratteggiato invece che assente/pieno, opacita' ridotta — letto a colpo d'occhio
+     come "spento"/"non ancora disponibile", distinto sia dal guscio attivo sia da qualunque
+     stato di lavorazione (mezzo pieno/pieno/sigillato, tutti saturi e opachi). Nessuna
+     interazione (stesso vincolo trasversale #5 della roadmap: pura presentazione locale) —
+     non e' un lucchetto cliccabile, solo un segnale visivo. -->
+<polygon points="43,28 35.5,15.01 20.5,15.01 13,28 20.5,40.99 35.5,40.99" fill="#C9C1B4" stroke="#8C8377" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="3 3" opacity="0.55"></polygon>
+</svg>

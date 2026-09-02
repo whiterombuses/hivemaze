@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 10 36 36" width="36" height="36">
+<!-- Fase 3a (roadmap-arnia-interna.md), seconda iterazione: overlay per
+     HoneycombCellFillState.empty. Prima non esisteva (lo sfondo statico forniva
+     gratuitamente la lettura "vuoto"); ora che lo sfondo e' stato rimosso e ogni cella e'
+     un componente Flame a se', serve un asset esplicito anche per questo stato: l'intera
+     parete di celle e' fatta di questa illustrazione, con solo le celle attive che nel
+     tempo passano a halfFull/full.
+     Costruito su istruzione dell'utente: solo il "guscio" di nectar-full.svg (la cavita'
+     scura sottostante), senza il contenuto di nettare/luccichio: stesso bordo, stessa
+     dimensione delle altre due varianti (nessuno stato cambia scala).
+     Addendum (cornice in legno, tassellamento a contatto, 2026-08-30): l'alone esagonale
+     pallido esterno (raggio 18.4, quasi invisibile su sfondo crema) e' stato rimosso: in
+     una parete di celle interamente tassellata (non piu' celle isolate su uno sfondo) la
+     sua semi-trasparenza dipingeva sopra l'esagono scuro della cella vicina ogni volta
+     che l'ordine di disegno la metteva sopra, lasciando una cucitura chiara visibile fra
+     le celle qualunque fosse la spaziatura della griglia (vedi l'addendum "celle a
+     contatto" nel rapporto di Fase 3a: non e' un problema di spaziatura, e' l'alone
+     stesso che eccede sempre il vero esagono visibile, per costruzione dell'asset).
+     Addendum (esagoni irregolari, 2026-08-30): anche a contatto esatto (nessuna
+     sovrapposizione della griglia), l'ampio margine trasparente della viewBox originale
+     56x56 (l'esagono occupa solo un cerchio di raggio 15 al centro) fa sì che i riquadri
+     quadrati degli sprite di celle adiacenti si sovrappongano parecchio — e la sfumatura
+     di anti-aliasing sul bordo dell'esagono di QUESTO sprite, ricadendo in
+     quell'overlap, può dipingersi sopra l'esagono già disegnato della cella vicina se
+     l'ordine di disegno la mette sopra: una linea sottile e incoerente esattamente dove
+     l'utente l'ha vista. La viewBox è stata ristretta al minimo che contiene l'esagono,
+     lo stroke e un piccolo margine anti-aliasing (centro 28,28 invariato, raggio 15 +
+     stroke 3.5/2 + margine ≈ 18): i riquadri quadrati ora si sovrappongono molto meno,
+     rendendo il fenomeno trascurabile. -->
+<polygon points="43,28 35.5,15.01 20.5,15.01 13,28 20.5,40.99 35.5,40.99" fill="#4A2C11"></polygon>
+</svg>

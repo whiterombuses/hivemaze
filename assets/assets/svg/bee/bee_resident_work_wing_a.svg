@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Ala anteriore della posa "resident_work" — placeholder, copia identica di
+       bee_nectar_work_wing_a.svg. Vedi bee_resident_work_body.svg per la provenienza. -->
+  <defs>
+    <clipPath id="wfClip2">
+      <ellipse cx="151" cy="72" rx="43" ry="17" transform="rotate(-13 151 72)"></ellipse>
+    </clipPath>
+  </defs>
+  <g id="wing-a">
+    <ellipse cx="151" cy="72" rx="43" ry="17" transform="rotate(-13 151 72)" fill="#D9EFF8" fill-opacity="0.92" stroke="#4A2617" stroke-width="5"></ellipse>
+    <g clip-path="url(#wfClip2)" fill="none" stroke="#A6D3E6" stroke-width="1.8" stroke-linecap="round">
+      <path d="M112 78 C134 68 165 58 193 56"></path>
+      <path d="M116 86 C138 78 168 68 195 66"></path>
+      <path d="M148 72 L154 54"></path>
+      <path d="M174 64 L180 48"></path>
+    </g>
+  </g>
+</svg>
