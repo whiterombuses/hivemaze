@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Posa "nectar_carry_dr": nectar_carry con la testa in basso a destra, per il volo
+       dall'alto a sinistra verso il basso a destra.
+       GENERATO da bee_nectar_carry_antennae.svg, non disegnato a mano: una ROTAZIONE RIGIDA
+       di 30° attorno al centro della viewBox, identica per tutti e 4 i layer
+       della posa. Essendo rigida nulla si stacca: ali sul dorso, zampe sotto,
+       antenne sulla testa. (Il primo tentativo specchiava le parti separatamente e
+       scuciva l'anatomia.) La scala 0.7660 serve a non far uscire il disegno dal
+       box ruotando: va compensata lato codice, o l'ape risulta piu' piccola.
+       La posa SENZA suffisso resta l'originale, testa in alto a sinistra.
+       Vedi docs/wiki/hive_interior_screen.md per la mappa direzione->posa. -->
+  <g transform="translate(230,0) scale(-1,1) translate(115,95) scale(0.7660) rotate(-30) translate(-115,-95)">
+  <g id="antennae">
+      <path d="M65 61 C57 49 49 45 43 38" fill="none" stroke="#4A2617" stroke-width="5" stroke-linecap="round"></path>
+      <path d="M83 57 C80 44 82 36 84 29" fill="none" stroke="#4A2617" stroke-width="5" stroke-linecap="round"></path>
+      <circle cx="39" cy="34" r="7.5" fill="#4A2617" stroke="none"></circle>
+      <circle cx="85" cy="24" r="7.5" fill="#4A2617" stroke="none"></circle>
+    </g>
+  </g>
+</svg>

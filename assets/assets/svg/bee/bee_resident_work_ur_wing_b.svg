@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Posa "resident_work_ur": resident_work con la testa in alto a destra, per il volo
+       dal basso a sinistra verso l'alto a destra.
+       GENERATO da bee_resident_work_wing_b.svg, non disegnato a mano. La posa SENZA
+       suffisso resta l'originale, testa in alto a sinistra.
+       Le ali restano dorsali: ricevono solo la componente orizzontale della
+       specchiatura, mai quella verticale (o finirebbero sotto il corpo).
+       Vedi docs/wiki/hive_interior_screen.md per la mappa direzione->posa. -->
+  <defs>
+    <clipPath id="whClip2">
+      <ellipse cx="145" cy="60" rx="33" ry="12" transform="rotate(-16 145 60)"></ellipse>
+    </clipPath>
+  </defs>
+  <g transform="translate(230,0) scale(-1,1)">
+  <g id="wing-b">
+      <ellipse cx="145" cy="60" rx="33" ry="12" transform="rotate(-16 145 60)" fill="#D2EBF6" fill-opacity="0.9" stroke="#4A2617" stroke-width="5"></ellipse>
+      <g clip-path="url(#whClip2)" fill="none" stroke="#A6D3E6" stroke-width="1.8" stroke-linecap="round">
+        <path d="M114 64 C134 54 158 48 178 48"></path>
+        <path d="M150 46 L154 64"></path>
+      </g>
+    </g>
+  </g>
+</svg>

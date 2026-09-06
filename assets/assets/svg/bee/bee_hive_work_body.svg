@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Corpo della posa "hive_work" (addendum 2026-09-06): l'ape FERMA SULLA CELLA al lavoro,
+       usata da NectarBee e da ResidentBee indifferentemente — a differenza delle pose di volo
+       non ha varianti orientate (_ur/_dl/_dr) ed e' questo che la rende condivisibile.
+
+       Disegnata da zero (non trasformata da un'altra posa): inquadratura DA DIETRO, testa in
+       alto e china dentro l'esagono, asse verticale. La simmetria attorno all'asse verticale e'
+       cio' che la rende neutra rispetto alla direzione da cui l'ape e' arrivata: un'ape scesa
+       dall'alto non deve restare inclinata di 30 gradi mentre lavora.
+
+       Palette ripresa alla lettera da bee_nectar_work_body.svg (stessa famiglia visiva):
+       addome #F8C468/#F0A93C/#DE8A22, testa #F7C066/#E89628, pelo #FCF6E7/#E8D5AF, contorno
+       #4A2617, strisce #1A140F. Le zampe usano lo stesso doppio tratto (scuro spesso sotto,
+       piu' chiaro sottile sopra) delle pose di volo.
+
+       Ordine di disegno imposto da BeeArt (ali sotto il corpo): le zampe stanno qui, sotto
+       testa/torace/addome, cosi' emergono da sotto il corpo invece di sovrapporvisi. -->
+  <defs>
+    <linearGradient id="abdG" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#F8C468"></stop>
+      <stop offset="0.45" stop-color="#F0A93C"></stop>
+      <stop offset="1" stop-color="#DE8A22"></stop>
+    </linearGradient>
+    <linearGradient id="headG" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#F7C066"></stop>
+      <stop offset="1" stop-color="#E89628"></stop>
+    </linearGradient>
+    <linearGradient id="creamG" x1="0.1" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#FCF6E7"></stop>
+      <stop offset="1" stop-color="#E8D5AF"></stop>
+    </linearGradient>
+    <clipPath id="abdClip">
+      <ellipse cx="115" cy="137" rx="46" ry="39"></ellipse>
+    </clipPath>
+  </defs>
+
+  <!-- Zampe: tre paia divaricate, aggrappate al bordo di cera. Radici verificate dentro
+       l'ellisse del torace prima del disegno. -->
+  <g stroke="#4A2617" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M92 76 L64 62 L46 54"></path>
+    <path d="M86 98 L54 100 L36 96"></path>
+    <path d="M92 114 L62 134 L48 154"></path>
+    <path d="M138 76 L166 62 L184 54"></path>
+    <path d="M144 98 L176 100 L194 96"></path>
+    <path d="M138 114 L168 134 L182 154"></path>
+  </g>
+  <g stroke="#6B3D24" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M92 76 L64 62 L46 54"></path>
+    <path d="M86 98 L54 100 L36 96"></path>
+    <path d="M92 114 L62 134 L48 154"></path>
+    <path d="M138 76 L166 62 L184 54"></path>
+    <path d="M144 98 L176 100 L194 96"></path>
+    <path d="M138 114 L168 134 L182 154"></path>
+  </g>
+
+  <!-- Testa: sporge appena oltre il torace, il resto e' dentro la cella. -->
+  <ellipse cx="115" cy="46" rx="27" ry="25" fill="url(#headG)" stroke="#4A2617" stroke-width="5"></ellipse>
+
+  <!-- Torace peloso. -->
+  <ellipse cx="115" cy="90" rx="40" ry="34" fill="url(#creamG)" stroke="#4A2617" stroke-width="5"></ellipse>
+  <path d="M92 66 C82 78 82 102 92 114 C100 100 100 80 92 66 Z" fill="#FDF9F0" fill-opacity="0.8"></path>
+
+  <!-- Pungiglione: disegnato prima dell'addome, che ne copre la base. -->
+  <path d="M107 166 L123 166 L115 188 Z" fill="#4A2617"></path>
+
+  <!-- Addome in primo piano (e' la parte piu' vicina a chi guarda in questa inquadratura). -->
+  <ellipse cx="115" cy="137" rx="46" ry="39" fill="url(#abdG)"></ellipse>
+  <g clip-path="url(#abdClip)">
+    <g fill="#1A140F">
+      <path d="M62 120 Q115 133 168 120 L168 133 Q115 146 62 133 Z"></path>
+      <path d="M70 148 Q115 160 160 148 L160 161 Q115 173 70 161 Z"></path>
+    </g>
+    <path d="M78 108 Q115 97 152 108 Q115 119 78 108 Z" fill="#FFFFFF" fill-opacity="0.26"></path>
+  </g>
+  <ellipse cx="115" cy="137" rx="46" ry="39" fill="none" stroke="#4A2617" stroke-width="5"></ellipse>
+  <circle cx="92" cy="116" r="5" fill="#FFFFFF" fill-opacity="0.55"></circle>
+</svg>

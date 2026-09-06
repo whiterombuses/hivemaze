@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Ala SINISTRA della posa "hive_work". Attenzione alla differenza rispetto alle pose di
+       volo: la' i due layer wing_a/wing_b sono l'ala anteriore e quella posteriore dello stesso
+       fianco (inquadratura di 3/4), qui — vista da dietro — si vedono entrambi i fianchi, quindi
+       wing_a e' l'ala sinistra e wing_b la destra.
+
+       Ripiegata all'indietro sull'addome e piu' corta di quelle in volo: un'ala spiegata larga
+       contraddirebbe l'ape appoggiata. BeeArt disegna le ali SOTTO il corpo, quindi e' collocata
+       abbastanza al di fuori della sagoma dell'addome da restare visibile: la meta' interna
+       sparisce sotto l'addome, la meta' esterna spunta, ed e' l'effetto voluto. -->
+  <defs>
+    <clipPath id="wlClip">
+      <ellipse cx="58" cy="124" rx="16" ry="47" transform="rotate(28 58 124)"></ellipse>
+    </clipPath>
+  </defs>
+  <g id="wing-a">
+    <ellipse cx="58" cy="124" rx="16" ry="47" transform="rotate(28 58 124)" fill="#D9EFF8" fill-opacity="0.92" stroke="#4A2617" stroke-width="5"></ellipse>
+    <g clip-path="url(#wlClip)" fill="none" stroke="#A6D3E6" stroke-width="1.8" stroke-linecap="round">
+      <path d="M76 88 C64 112 52 140 40 164"></path>
+      <path d="M68 86 C57 110 46 138 35 160"></path>
+      <path d="M70 112 L54 106"></path>
+      <path d="M60 140 L44 134"></path>
+    </g>
+  </g>
+</svg>

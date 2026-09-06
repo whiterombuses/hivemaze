@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Antenne della posa "hive_work": attaccate alla sommita' della testa (attacchi (100,28) e
+       (130,28), verificati dentro l'ellisse della testa prima del disegno) e rivolte IN ALTO e
+       verso l'esterno — in questa inquadratura la testa e' china dentro la cella, quindi le
+       antenne sono la parte che si vede meglio ed e' quella che BeeArt fa oscillare.
+       Disegnate sopra il corpo, come in tutte le altre pose. -->
+  <g id="antennae">
+    <path d="M100 28 C93 18 86 13 79 10" fill="none" stroke="#4A2617" stroke-width="5" stroke-linecap="round"></path>
+    <path d="M130 28 C137 18 144 13 151 10" fill="none" stroke="#4A2617" stroke-width="5" stroke-linecap="round"></path>
+    <circle cx="76" cy="9" r="7" fill="#4A2617"></circle>
+    <circle cx="154" cy="9" r="7" fill="#4A2617"></circle>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Ala DESTRA della posa "hive_work" — speculare di bee_hive_work_wing_a.svg rispetto
+       all'asse verticale della viewBox (x -> 230-x). Vedi quel file per il perche' i due layer
+       qui siano i due fianchi e non le due ali dello stesso fianco. -->
+  <defs>
+    <clipPath id="wrClip">
+      <ellipse cx="172" cy="124" rx="16" ry="47" transform="rotate(-28 172 124)"></ellipse>
+    </clipPath>
+  </defs>
+  <g id="wing-b">
+    <ellipse cx="172" cy="124" rx="16" ry="47" transform="rotate(-28 172 124)" fill="#D9EFF8" fill-opacity="0.92" stroke="#4A2617" stroke-width="5"></ellipse>
+    <g clip-path="url(#wrClip)" fill="none" stroke="#A6D3E6" stroke-width="1.8" stroke-linecap="round">
+      <path d="M154 88 C166 112 178 140 190 164"></path>
+      <path d="M162 86 C173 110 184 138 195 160"></path>
+      <path d="M160 112 L176 106"></path>
+      <path d="M170 140 L186 134"></path>
+    </g>
+  </g>
+</svg>

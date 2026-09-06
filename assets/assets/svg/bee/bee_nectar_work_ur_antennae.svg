@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 190" width="230" height="190">
+  <!-- Posa "nectar_work_ur": nectar_work con la testa in alto a destra, per il volo
+       dal basso a sinistra verso l'alto a destra.
+       GENERATO da bee_nectar_work_antennae.svg, non disegnato a mano. La posa SENZA
+       suffisso resta l'originale, testa in alto a sinistra.
+       Vedi docs/wiki/hive_interior_screen.md per la mappa direzione->posa. -->
+  <g transform="translate(230,0) scale(-1,1)">
+  <g id="antennae">
+      <path d="M65 61 C57 49 49 45 43 38" fill="none" stroke="#4A2617" stroke-width="5" stroke-linecap="round"></path>
+      <path d="M83 57 C80 44 82 36 84 29" fill="none" stroke="#4A2617" stroke-width="5" stroke-linecap="round"></path>
+      <circle cx="39" cy="34" r="7.5" fill="#4A2617" stroke="none"></circle>
+      <circle cx="85" cy="24" r="7.5" fill="#4A2617" stroke="none"></circle>
+    </g>
+  </g>
+</svg>
