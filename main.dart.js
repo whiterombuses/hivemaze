@@ -98509,7 +98509,7 @@ ga2B(){return"Api nell'Interno dell'Arnia"},
 a2D(a,b){return"da "+a+" a "+b},
 a2C(a,b){return"Inserisci un numero da "+a+" a "+b+"."},
 ga2A(){return"Tocca l'Arnia sulla cella del Nodo Vendita per vedere il risultato: \xe8 il numero di celle del favo lavorate dalle api. Vale solo per questa demo."},
-ga2L(){return"Benvenuto!"},
+ga2L(){return"Bentornato!"},
 ga2K(){return"Ho capito, si vola!"}}
 A.aQz.prototype={
 $1(a){return A.b1I(this.a)},
