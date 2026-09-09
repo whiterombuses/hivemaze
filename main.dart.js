@@ -98440,7 +98440,7 @@ ga2I(){return"Grid size"},
 ga2B(){return"Bees inside the Hive"},
 a2D(a,b){return""+a+" to "+b},
 a2C(a,b){return"Enter a number from "+a+" to "+b+"."},
-ga2A(){return"Tap the Hive on the Sales Node cell to see the result: it is how many honeycomb cells the bees work. Demo only."},
+ga2A(){return"Tap the Hive on the Honey Market cell to see the result: it is how many honeycomb cells the bees work. Demo only."},
 ga2L(){return"Welcome!"},
 ga2K(){return"Got it, let's fly!"}}
 A.PO.prototype={
@@ -98527,7 +98527,7 @@ ga2I(){return"Dimensione griglia"},
 ga2B(){return"Api nell'Interno dell'Arnia"},
 a2D(a,b){return"da "+a+" a "+b},
 a2C(a,b){return"Inserisci un numero da "+a+" a "+b+"."},
-ga2A(){return"Tocca l'Arnia sulla cella del Nodo Vendita per vedere il risultato: \xe8 il numero di celle del favo lavorate dalle api. Vale solo per questa demo."},
+ga2A(){return"Tocca l'Arnia sulla cella del Mercato del Miele per vedere il risultato: \xe8 il numero di celle del favo lavorate dalle api. Vale solo per questa demo."},
 ga2L(){return"Bentornato!"},
 ga2K(){return"Ho capito, si vola!"}}
 A.aQD.prototype={
