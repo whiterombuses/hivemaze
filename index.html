@@ -52,6 +52,9 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
+  <!-- Motore audio degli effetti sonori (flutter_soloud, WASM servito dallo stesso bundle: nessuna
+       richiesta esterna). Deve precedere il bootstrap: senza, SoLoud.init() fallisce sul web. -->
+  <script src="assets/packages/flutter_soloud/web/init_soloud.js" defer></script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
